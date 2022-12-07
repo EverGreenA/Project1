@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 int main() {
-	
+
 	int i;
 	int receive;
 	int j;
 	int k;
-	int num = 0;
 
 	scanf_s("%d", &receive);
 
@@ -15,7 +14,7 @@ int main() {
 		for (j = 1; j < receive - i; j++) {
 			printf(" ");
 		}
-		for (k = 0; k <= i*2; k++) {
+		for (k = 0; k <= i * 2; k++) {
 			printf("*");
 		}
 		printf("\n");
